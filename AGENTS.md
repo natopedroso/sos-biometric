@@ -46,3 +46,8 @@ Status aceitos:
 ## Compatibilidade
 - Se executado sem argumentos, abrir modo visual (template app).
 - Se executado com argumentos CLI, finalizar com resposta JSON para consumo do Electron.
+
+## Build e publicacao
+- Script recomendado: `build-and-publish.ps1`
+- Exemplo: `powershell -ExecutionPolicy Bypass -File .\\build-and-publish.ps1`
+- Pre-requisito: Visual Studio Build Tools com suporte a .NET desktop e `MSBuild.exe` disponivel.

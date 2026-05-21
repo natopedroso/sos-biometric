@@ -1,0 +1,11 @@
+D:\Projects\sos\sos-biometric\bin\Release\biometric.exe
+D:\Projects\sos\sos-biometric\bin\Release\biometric.pdb
+D:\Projects\sos\sos-biometric\obj\Release\UISupportSample CS.csproj.AssemblyReference.cache
+D:\Projects\sos\sos-biometric\obj\Release\UI_Support.EnrollmentForm.resources
+D:\Projects\sos\sos-biometric\obj\Release\UI_Support.MainForm.resources
+D:\Projects\sos\sos-biometric\obj\Release\UI_Support.Properties.Resources.resources
+D:\Projects\sos\sos-biometric\obj\Release\UI_Support.VerificationForm.resources
+D:\Projects\sos\sos-biometric\obj\Release\UISupportSample CS.csproj.GenerateResource.cache
+D:\Projects\sos\sos-biometric\obj\Release\UISupportSample CS.csproj.CoreCompileInputs.cache
+D:\Projects\sos\sos-biometric\obj\Release\biometric.exe
+D:\Projects\sos\sos-biometric\obj\Release\biometric.pdb

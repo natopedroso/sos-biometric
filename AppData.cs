@@ -21,11 +21,12 @@ namespace UI_Support
 		public int MaxEnrollFingerCount = MaxFingers;
         public bool IsEventHandlerSucceeds = true;
         public bool IsFeatureSetMatched = false;
+		public int MatchedTemplateIndex = -1;
         public int FalseAcceptRate = 0;
 		public DPFP.Template[] Templates = new DPFP.Template[MaxFingers];
 
 		// data change notification
-		public void Update() { OnChange(); }		// just fires the OnChange() event
+		public void Update() { OnChange?.Invoke(); }		// just fires the OnChange() event
 		public event OnChangeHandler OnChange;
 	}
 }
