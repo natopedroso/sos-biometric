@@ -46,6 +46,7 @@ namespace UI_Support
             CloseButton.TabIndex = 2;
             CloseButton.Text = "Close";
             CloseButton.UseVisualStyleBackColor = true;
+            CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // lblPrompt
             // 
@@ -85,6 +86,7 @@ namespace UI_Support
             this.Name = "VerificationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Verify Your Identity";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VerificationForm_FormClosing);
             this.ResumeLayout(false);
 
         }

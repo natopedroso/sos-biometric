@@ -46,6 +46,7 @@ namespace UI_Support
             CloseButton.TabIndex = 1;
             CloseButton.Text = "Close";
             CloseButton.UseVisualStyleBackColor = true;
+            CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // EnrollmentControl
             // 

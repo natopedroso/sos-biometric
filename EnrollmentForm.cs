@@ -86,5 +86,9 @@ namespace UI_Support {
     private void EnrollmentForm_Load(object sender, EventArgs e) {
       this.ListEvents.Items.Clear();
     }
+
+    private void CloseButton_Click(object sender, EventArgs e) {
+      Close();
+    }
   }
 }

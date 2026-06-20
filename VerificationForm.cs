@@ -41,6 +41,14 @@ namespace UI_Support {
       Data.Update();
     }
 
+    private void CloseButton_Click(object sender, EventArgs e) {
+      Close();
+    }
+
+    private void VerificationForm_FormClosing(object sender, FormClosingEventArgs e) {
+      VerificationControl.Active = false;
+    }
+
     private AppData Data;
   }
 }
